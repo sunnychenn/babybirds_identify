@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>雛鳥辨識小工具</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>雛鳥辨識小工具</h1>
+    <input type="file" accept="image/*" id="upload" />
+    <div id="preview"></div>
+    <button id="predictButton">辨識</button>
+    <div id="result">請上傳圖片並點擊「辨識」</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+  <script src="script/main.js"></script>
+</body>
+</html>
